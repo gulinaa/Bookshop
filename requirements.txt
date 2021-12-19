@@ -1,0 +1,25 @@
+django
+psycopg2-binary
+pillow
+
+
+#python manage.py shell
+#from main.models import Book
+#Book.objects.create(title='Jamilya', status='out of stock', author_id=1)
+#<Book: Jamilya>  - to add more book
+
+#from main.models import Genre
+#Genre.objects.all() - to get all genre types
+
+#genre1 = Genre.objects.get(slug='fiction')
+#genre1      - to get specific type
+
+
+#book = Book.objects.get(title='Jamilya')
+#book
+
+#book.genre.add(genre1) - to add one more genre type
+
+
+
+
